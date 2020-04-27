@@ -1,4 +1,4 @@
-package com.sametsafkan.beer.inventory.service.web.model;
+package com.sametsafkan.mssbrewery.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
