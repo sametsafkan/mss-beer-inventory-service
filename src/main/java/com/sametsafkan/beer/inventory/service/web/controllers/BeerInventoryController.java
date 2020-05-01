@@ -33,4 +33,13 @@ public class BeerInventoryController {
                 .map(beerInventoryMapper::beerInventoryToBeerInventoryDto)
                 .collect(Collectors.toList());
     }
+
+    @GetMapping("/api/v1/inventory")
+    List<BeerInventoryDto> listBeers(){
+
+        return beerInventoryRepository.findAll()
+                .stream()
+                .map(beerInventoryMapper::beerInventoryToBeerInventoryDto)
+                .collect(Collectors.toList());
+    }
 }
