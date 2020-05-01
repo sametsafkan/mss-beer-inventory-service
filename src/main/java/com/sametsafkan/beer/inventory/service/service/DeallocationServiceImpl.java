@@ -2,7 +2,7 @@ package com.sametsafkan.beer.inventory.service.service;
 
 import com.sametsafkan.beer.inventory.service.domain.BeerInventory;
 import com.sametsafkan.beer.inventory.service.repositories.BeerInventoryRepository;
-import com.sametsafkan.mssbrewery.model.BeerOrderDto;
+import com.sametsafkan.brewery.model.BeerOrderDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
-package com.sametsafkan.mssbrewery.event;
+package com.sametsafkan.brewery.event;
 
-import com.sametsafkan.mssbrewery.model.BeerDto;
+import com.sametsafkan.brewery.model.BeerDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

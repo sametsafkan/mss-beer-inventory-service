@@ -1,4 +1,4 @@
-package com.sametsafkan.mssbrewery.model;
+package com.sametsafkan.brewery.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

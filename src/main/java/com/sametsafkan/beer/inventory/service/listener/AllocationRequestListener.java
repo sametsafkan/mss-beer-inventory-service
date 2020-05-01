@@ -2,8 +2,8 @@ package com.sametsafkan.beer.inventory.service.listener;
 
 import com.sametsafkan.beer.inventory.service.config.JmsConfig;
 import com.sametsafkan.beer.inventory.service.service.AllocationService;
-import com.sametsafkan.mssbrewery.event.AllocateOrderRequest;
-import com.sametsafkan.mssbrewery.event.AllocateOrderResult;
+import com.sametsafkan.brewery.event.AllocateOrderRequest;
+import com.sametsafkan.brewery.event.AllocateOrderResult;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jms.annotation.JmsListener;
