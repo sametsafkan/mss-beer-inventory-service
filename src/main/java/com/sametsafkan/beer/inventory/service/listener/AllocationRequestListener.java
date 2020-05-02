@@ -32,6 +32,6 @@ public class AllocationRequestListener {
             log.error("Allocation failed for order id : " + request.getBeerOrderDto().getId(), e);
             builder.allocationError(true);
         }
-        jmsTemplate.convertAndSend(JmsConfig.ALLOCATE_ORDER_RESULT_QUEUE, AllocateOrderResult.builder().build());
+        jmsTemplate.convertAndSend(JmsConfig.ALLOCATE_ORDER_RESULT_QUEUE, builder.build());
     }
 }
